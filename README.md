@@ -28,4 +28,17 @@ Admin Dashboard
 4. Inventory Management
 5. Invoice feature (send as pdf)
 6. Review Management
-7. Woocommerce disguise
+7. Woocommerce in disguise
+
+How to configure 
+1. create database "yourDb" and import "gill.sql"
+2. open db.php and change the following:
+DEFINE("DBUSER","engineerskasa");
+DEFINE("DBPWD",'$eng$kasa');
+DEFINE("DBHOST","localhost");
+DEFINE("DBNAME","giloo");
+To
+DEFINE("DBUSER","your username usually root");
+DEFINE("DBPWD",'tour DB password');
+DEFINE("DBHOST","localhost");
+DEFINE("DBNAME","your database name");
