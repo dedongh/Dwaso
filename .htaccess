@@ -1,0 +1,33 @@
+
+# HTID:7709224: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:7709224:
+RewriteEngine on
+
+RewriteRule ^home$ index.php [L]
+RewriteRule ^about$ about.php [L]
+RewriteRule ^sign-in$ sign-in.php [L]
+RewriteRule ^categories$ shop-categories.php [L]
+RewriteRule ^order$ account-orders.php [L]
+RewriteRule ^user$ account-profile.php [L]
+
+RewriteRule ^cart$ cart.php [L]
+RewriteRule ^address$ checkout-address.php [L]
+RewriteRule ^complete$ checkout-complete.php [L]
+RewriteRule ^delivery checkout-delivery.php [L]
+RewriteRule ^payment$ checkout-payment.php [L]
+RewriteRule ^review$ checkout-review.php [L]
+
+RewriteRule ^contact$ contact.php [L]
+RewriteRule ^order-tracking$ order-tracking.php [L]
+RewriteRule ^password-recovery$ password-recovery.php [L]
+RewriteRule ^compare$ product-compare.php [L]
+RewriteRule ^password-reset$ reset-password.php [L]
+RewriteRule ^grid-view$ shop-grid.php [L]
+
+RewriteRule ^list-view$ shop-list.php [L]
+RewriteRule ^search$ search-results.php [L]
+RewriteRule ^single-item$ shop-single.php [L]
+RewriteRule ^wishlist$ wishlist.php [L]
+
+Options All -Indexes

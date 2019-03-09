@@ -1,0 +1,2 @@
+[02-Jan-2019 12:34:11 UTC] PHP Notice:  Undefined index: parentID in /home/r9wnjywlz1jf/public_html/admin/parsers/child_categories.php on line 11
+[02-Jan-2019 12:34:11 UTC] PHP Notice:  Undefined index: selected in /home/r9wnjywlz1jf/public_html/admin/parsers/child_categories.php on line 12
