@@ -1,4 +1,4 @@
-# Dwaso
+# Dwaso - E-commerce made simple
 Dwaso is an online store built with PHP/MySQL, Ajax, Jquery, Bootstrap and Javascript
 It entails the following features
 1. Hompage with Slider and owl-carousel for products
